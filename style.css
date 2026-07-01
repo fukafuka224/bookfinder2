@@ -1,0 +1,73 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f3f4f6;
+    color:#333;
+}
+
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+.container{
+    max-width:900px;
+    margin:30px auto;
+    padding:20px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    font-size:18px;
+    border-radius:10px;
+    border:1px solid #ccc;
+}
+
+button{
+    margin-top:10px;
+    padding:12px 20px;
+    border:none;
+    border-radius:10px;
+    background:#4CAF50;
+    color:white;
+    cursor:pointer;
+    font-size:16px;
+}
+
+button:hover{
+    background:#388e3c;
+}
+
+.menu{
+    margin-top:20px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+}
+
+#bookResult,
+#storeResult{
+    margin-top:30px;
+    background:white;
+    border-radius:15px;
+    padding:20px;
+    box-shadow:0 5px 10px rgba(0,0,0,.15);
+}
+
+.dark{
+    background:#222;
+    color:white;
+}
+
+.dark #bookResult,
+.dark #storeResult{
+    background:#333;
+}
